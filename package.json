@@ -14,11 +14,15 @@
     "mgcs": "node source/magic-string-usage.js",
     "dwnl": "node source/download.js",
     "search": "node source/search.js",
-    "checktext": "node source/checktext.js"
+    "checktext": "node source/checktext.js",
+    "test2": "uvu"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "spok": "^1.5.5",
+    "uvu": "^0.5.6",
+    "zod": "^3.22.2"
   },
   "dependencies": {
     "download": "^8.0.0",
