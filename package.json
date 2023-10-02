@@ -15,7 +15,10 @@
     "dwnl": "node source/download.js",
     "search": "node source/search.js",
     "checktext": "node source/checktext.js",
-    "test2": "uvu"
+    "test2": "uvu",
+    "gencode": "node source/gencode.js",
+    "colorist": "node source/colorist.js",
+    "prompts": "node source/prompts.js"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.0",
@@ -25,8 +28,10 @@
     "zod": "^3.22.2"
   },
   "dependencies": {
+    "colord": "^2.9.3",
     "download": "^8.0.0",
     "elasticlunr": "^0.9.5",
+    "esrap": "^1.0.2",
     "magic-string": "^0.30.4",
     "no-cliches": "^0.3.6",
     "progress": "^2.0.3",
