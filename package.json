@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "colord": "^2.9.3",
+    "date-fns": "^3.0.6",
     "download": "^8.0.0",
     "elasticlunr": "^0.9.5",
     "esrap": "^1.0.2",
