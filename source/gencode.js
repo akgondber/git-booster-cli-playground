@@ -13,7 +13,7 @@ const { code, map } = print({
         arguments: [
           {
             type: 'Literal',
-            value: 'hello world!'
+            value: 'hello world YEAH!'
           }
         ]
       }

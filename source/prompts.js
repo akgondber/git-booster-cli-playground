@@ -5,7 +5,7 @@ import prompts from 'prompts';
     type: 'number',
     name: 'value',
     message: 'How old are you?',
-    validate: value => value < 18 ? `Nightclub is 18+ only` : true
+    validate: value => value < 18 ? `Nightclub is 18+ only!` : true
   });
 
   console.log(response); // => { value: 24 }
