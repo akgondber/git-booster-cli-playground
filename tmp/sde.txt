@@ -1,0 +1,24 @@
+In this post I am going to explore a CLI app that can bring your git experience to the new level.
+{% embed https://github.com/akgondber/npm-check-extras %}
+
+It is npm package and needs to be installed globally using your preferred package manager:
+`npm install -g git-booster-cli`
+or
+`yarn global add git-booster-cli`
+etc.
+
+When we have installed the utility, we can show the capabilities that it provides, you can issue .
+```
+git-booster-cli
+#or
+gbst
+#or
+gbcli
+```
+```
+$ git add -A
+$ git commit -m "Added emoji support"`
+$ git push origin main
+```
+
+Using git-booster-cli you can do it at one pass, what you need
