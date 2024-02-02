@@ -1,6 +1,6 @@
 import MagicString from 'magic-string';
 
-const s = new MagicString('problems = 99');
+const s = new MagicString('problems = 89');
 
 s.update(0, 8, 'answer');
 
